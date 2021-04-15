@@ -1,0 +1,6 @@
+name: poc-rever
+channels:
+    - conda-forge
+dependencies:
+    - pip
+    - python 3.8.*

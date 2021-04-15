@@ -1,8 +1,7 @@
-name: poc-rever
+name: poc-rever-release
 channels:
     - conda-forge
 dependencies:
     - pip
-    - rever
     - python 3.8.*
-    - setuptools
+    - rever

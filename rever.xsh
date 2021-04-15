@@ -7,7 +7,7 @@ $ACTIVITIES = [
 ]
 # These note where/how to find the version numbers
 $VERSION_BUMP_PATTERNS = [
-    ('setup.py', r'version\s*=.*', "version='$VERSION'"),
+    ('setup.py', r'version\s*=.*', "version='$VERSION',"),
 ]
 
 $PUSH_TAG_REMOTE = 'git@github.com:xmnlab/poc-rever.git'  # Repo to push tags to
